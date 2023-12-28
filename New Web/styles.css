@@ -1,0 +1,184 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.bungkus {
+    font-variant:small-caps;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:url('BG12.jpg') no-repeat;
+}
+
+.wrapper {
+    width:420px;
+    color:black;
+    background:transparent;
+    border-radius:12px;
+    padding:30px 40px;
+    background-size:cover;
+    background-position:center;
+    border:2px solid rgba(255, 255 , 255 , 2 );
+    backdrop-filter:blur(40px);
+}
+
+.wrapper h1 {
+    font-size:25px;
+    color:white;
+    text-align:center;
+}
+
+.wrapper .input-box {
+   position:relative;
+    width:100%;
+    height:50px;
+    margin:30px 0;
+    font-style:italic;
+}
+
+.input-box input {
+    width:100%;
+    height:100%;
+    background: tranparent;
+    border:none;
+    outline:none;
+    border:2px solid rgba(255, 255 , 255 , 2 );
+    border-radius:40px;
+    font-size:15px;
+    color:black;
+    padding-right:20px;
+    font-family: 'Heebo', sans-serif;
+    font-weight:20px;
+}
+
+
+
+
+.input-box input::placeholder {
+    color:black;
+    font-family: 'Heebo', sans-serif;
+    font-weight:400px;
+}
+
+.input-box i {
+    position: absolute;
+    right:20px;
+    top:50%;
+    transform:translateY(-50%) ;
+}
+
+.wrapper .lupa-kata-sandi {
+    display:flex;
+    justify-content:space-between;
+    margin: -15px 0px 15px;
+    font-size:12px;
+}
+
+.lupa-kata-sandi input {
+    accent-color:white;
+    margin-right:3px;
+}
+
+.lupa-kata-sandi a {
+    color:white;
+    text-decoration:none;
+}
+
+.lupa-kata-sandi a:hover {
+    color:blue;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height:50px;
+    border:none;
+    outline:none;
+    border-radius:40px;
+    cursor:pointer;
+    color:black;
+    font-weight:600;
+}
+
+.wrapper .register-link {
+    font-size:12px;
+    text-align:center;
+    margin-top:12px;
+    margin:20px 0px 15px;
+}
+
+.wrapper .register-link p a {
+    color:black;
+    text-decoration:none;
+    font-weight:666;
+}
+
+.wrapper .register-link a:hover {
+    color:blue;
+   
+}
+
+.wrapper1 {
+    width:100%;
+    background:white;
+    background:transparent;
+    backdrop-filter:blur(40px);
+}
+
+.navbar {
+ display:flex;
+ justify-content:space-between;
+}
+
+.nav , ul , li , a {
+    display:flex;
+    padding:4px 8px 4px 8px;
+    text-decoration: none;
+    color:black;
+}
+
+#myinput {
+  padding-top: 5px;
+  padding-right: 40px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+.logo {
+    display:flex;
+    margin:5px;
+    font-variant:normal;
+    padding-left:15px;
+}
+
+.gambar {
+    width:20px;
+    height:20px;
+    display:flex;
+    margin-top:5px;
+    margin-right:5px;
+}
+
+.btn2 {
+    border:none;
+    outline:none;
+    border-radius:12px;
+    background:transparent;
+    cursor:pointer;
+    color:black;
+    font-weight:600;
+    background:white;
+}
+
+.nav , ul , li , a:hover {
+    color:blue;
+}
+
+.wrapper2 {
+    width:100%;
+    flex-direction:row;
+    display:flexbox;
+    justify-content:space-between;
+}
